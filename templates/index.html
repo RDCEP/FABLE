@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>D3 Practice</title>
+  <link rel="stylesheet" href="../static/css/normalize.css">
+  <link href="../static/css/main.css" rel="stylesheet">
+ <script src="../static/js/vendor/d3.v3.min.js"></script>
+</head>
+<body>
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <header id="main_nav">
+    <nav>
+      <ul id="top_nav" class="clearfix">
+        <li><a href="">Home</a></li>
+        <li><a href="">Glossary</a></li>
+        <li><a href="">Documentation</a></li>
+        <li><ul id="left_nav">
+          <li><a href data-name="foo" class="onpage-link">Foo</a></li>
+          <li><a href data-name="bar" class="onpage-link">Bar</a></li>
+          <li><a href data-name="baz" class="onpage-link">Baz</a></li>
+          <li><a href data-name="quux" class="onpage-link">Quux</a></li>
+        </ul></li>
+      </ul>
+    </nav>
+  </header>
+  <article id="main_content">
+    <section>
+      <header>
+        <h1>Sample Graphs</h1>
+      </header>
+    </section>
+
+    <section id="summary" class="clearfix">
+
+      <div id="foo"></div>
+
+    </section>
+  </article>
+  <script src="../static/js/lineGraph.js"></script>
+  <script src="../static/js/BarGraph.js"></script>
+  <script src="../static/js/scatterPlot.js"></script>
+  
+</body>
+</html>
